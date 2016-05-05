@@ -12,7 +12,8 @@ print "Hens", 25.0 + 30.0 / 6.0
 print "Roosters", 100.0 - 25.0 * 3.0 % 4.0
 #Print text statement to clarify unit we are counting (eggs)
 print "Now I will count the eggs:"
-# Uses order of operations to give number of eggs:  Returns 7
+# Uses order of operations to give number of eggs: First finds the remainder of 4/2 (0). Then divides -1/4 (-.25). 
+# Finally adds 3+2+1-5+0-.25+6. Returns 6.75
 print 3.0 + 2.0 + 1.0 - 5.0 + 4.0 % 2.0 - 1.0 / 4.0 + 6.0
 # print statement to let user know what we are testing.
 print "Is it true that 3 + 2 < 5 - 7?"
